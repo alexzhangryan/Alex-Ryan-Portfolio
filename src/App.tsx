@@ -5,7 +5,6 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Message from './Message';
 import NavBar from './NavBar';
-import type { JSX } from 'react/jsx-runtime';
 
 function AppRouter() {
   const router = createBrowserRouter(
