@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Typewriter from "./Typewriter";
 import Footer from "./Footer";
-
 const Message = () => {
     return(
         <>  
@@ -26,7 +25,7 @@ const Message = () => {
                     </p>
                 </div>
                 <div className="mx-15 flex items-center pt-15">
-                    <img className="border-4 border-accent rounded-lg hidden lg:block"src="/assets/selfie4.jpg" loading="eager"></img>
+                    <img className="border-4 border-accent rounded-lg hidden lg:block"src={`${import.meta.env.BASE_URL}assets/selfie4.jpg`} loading="eager"></img>
                 </div>
             </div>
             <Footer isBottom={false}/>
