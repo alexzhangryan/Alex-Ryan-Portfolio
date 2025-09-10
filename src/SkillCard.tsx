@@ -30,7 +30,7 @@ export default function SkillCard(props: SkillCardProps){
     return(
         <div className="skillCard">
             <div className="flex justify-center items-center h-25 px-2 mt-3">
-                <img className="h-15"src={`./src/assets/${props.img}`} loading="eager"></img>
+                <img className="h-15"src={`${import.meta.env.BASE_URL}assets/${props.img}`} loading="eager"></img>
                 <h1 className="text-[36px] pl-5">{props.title}</h1>
             </div>
             <div className="flex flex-col">
