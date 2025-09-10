@@ -26,7 +26,7 @@ const Message = () => {
                     </p>
                 </div>
                 <div className="mx-15 flex items-center pt-15">
-                    <img className="border-4 border-accent rounded-lg hidden lg:block"src="./src/assets/selfie4.jpg" loading="eager"></img>
+                    <img className="border-4 border-accent rounded-lg hidden lg:block"src="/assets/selfie4.jpg" loading="eager"></img>
                 </div>
             </div>
             <Footer isBottom={false}/>
