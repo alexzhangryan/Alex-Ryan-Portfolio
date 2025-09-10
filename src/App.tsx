@@ -1,4 +1,4 @@
-import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import NotFoundPage from './NotFound';
 import Projects from './Projects';
 import Skills from './Skills';
@@ -37,7 +37,3 @@ function App(){
 };
 
 export default AppRouter;
-
-function createRoutesFromElements(arg0: JSX.Element): import("react-router").RouteObject[] {
-  throw new Error('Function not implemented.');
-}
