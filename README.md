@@ -1,4 +1,4 @@
-# ortfolio Website
+# Portfolio Website
 
 This is my personal portfolio website built to introduce myself, show off my personal projects, and display my skills and exerpience. It is build using the React framework and written in TypeScript. It also uses the TailwindCSS library to handle styling.
 
