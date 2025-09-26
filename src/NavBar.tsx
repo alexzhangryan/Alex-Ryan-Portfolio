@@ -11,7 +11,6 @@ export const NavBar = () =>{
         <ul className = "flex items-center font-mono text-lg font-bold">
             <NavLink to="/" className = "navLink">Home</NavLink>
             <NavLink to="/projects" className = "navLink">Projects</NavLink>
-            <NavLink to="/experience" className = "navLink">Experience</NavLink>
             <NavLink to="/skills" className = "navLink">Skills</NavLink>
             <li className = "navLink" onClick={() => setOpenContact(true)}>Contact</li>
             
