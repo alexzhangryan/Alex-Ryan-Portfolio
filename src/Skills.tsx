@@ -29,6 +29,8 @@ export const Skills = () => {
                         <SkillCard title="Pytorch" percent={87} img="pytorch.png"/>
                         <SkillCard title="SQL Alchemy" percent={94} img="sqlalchemy.png"/>
                         <SkillCard title="MatPlotLib" percent={98} img="matplotlib.png"/>
+                        <SkillCard title="Scikit Learn" percent={97} img="scikitlearn.png"/>
+                        <SkillCard title="Streamlit" percent={95} img="streamlit.png"/>
                     </div>
                 </div>
                 <h1 className="text-[36px] font-mono text-center mt-10 mb-5">Other</h1>
